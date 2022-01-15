@@ -80,6 +80,8 @@ main>.first-section img {
 }
 .delivery{
     display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 .return-policy{
     margin-top: 40px;
@@ -100,4 +102,19 @@ ul{
     background-color: rgb(202, 225, 241);
     opacity: var(#D9DBE1);
     margin-left: 10px;
+}
+.picture{
+    background-color:thistle;
+    margin-left: 90px;
+    margin-bottom: 40px;
+}
+/* media quaries 
+ */
+ @media only screen and (max width: 688px){
+     .popular{
+         grid-template-columns: repeat(1,1fr)
+     }
 
+ };
+     
+ 
